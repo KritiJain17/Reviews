@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(184, 230, 248);
+}
+/*
+.container{
+  display: inline;
+
+  justify-content: center;
+  align-items:flex-start;
+}
+*/
+.container{
+  margin: auto;
+  text-align:center;
+}
+
+.card{
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 5px darkblue;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.heading h1{
+  /*display: flex;*/
+  font-size: 60px;
+  color: violet;
+}
+
+
+#Img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 3px 3px 5px black, 0 0 20px gray;
+}
+
+#Name{
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 50px;
+  margin: 0px;
+}
+
+#job{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#review{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+}
+
+.btn_container{
+  margin-top: 15px;
+}
+
+.random_btn{
+  border-radius: 5px;
+  color: black;
+  background-color: lightblue;
+  margin: auto;
+  margin-top: 15px;
+}
